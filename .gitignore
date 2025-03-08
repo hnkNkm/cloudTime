@@ -1,0 +1,34 @@
+# 📌 Node.js 関連（フロント & バック）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+.DS_Store
+
+# 📌 Next.js 関連（フロント）
+.next/
+out/
+
+# 📌 TypeScript のビルド成果物（バックエンド）
+dist/
+
+# 📌 環境変数ファイル（フロント & バック）
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+!.env.example
+
+# 📌 Docker 関連
+docker-compose.override.yml
+db_data/
+cloudtime_db/
+*.pid
+
+# 📌 エディタ & OS 関連
+.vscode/
+.idea/
+*.swp
